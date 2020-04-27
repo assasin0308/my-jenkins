@@ -3,6 +3,8 @@
 ### 1. installation
 
 ```json
+https://www.cnblogs.com/mmzs/p/12092982.html
+
 # sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
 # rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
 # yum install jenkins
