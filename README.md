@@ -33,7 +33,9 @@ vim /var/lib/jenkins/hudson.model.UpdateCenter.xml
 # 其他国内备用地址（也可以选择使用）：
 https://mirrors.tuna.tsinghua.edu.cn/jenkins/updates/update-center.json
 http://mirror.esuni.jp/jenkins/updates/update-center.json
-# 重启服务
+# 重启服务 进行访问
+# 安装推荐的插件时报错：安装过程中出现一个错误： No such plugin: cloudbees-fo
+# 解决方法: 去 https://updates.jenkins-ci.org/download/plugins/cloudbees-folder/ 下载一个插件:cloudbees-folder.hpi,放入/var/lib/jenkins/plugins
 ```
 
 ### 4. 反向代理
